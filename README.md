@@ -30,7 +30,7 @@ Some important scripts to note:
 ### Acknowledgement
 We have based our model development on https://github.com/songyouwei/ABSA-PyTorch. Thanks for their contribution.
 ### Citation
-If you found this repository is help, please cite our paper:
+If you found this repository is helpful, please cite our paper:
 ```
 @inproceedings{phan2020modelling,
   title={Modelling Context and Syntactical Features for Aspect-based Sentiment Analysis},
