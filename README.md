@@ -23,6 +23,7 @@ The command to train LCFS-BERT with context dynamic weight and SRD threshold = 4
 
 ### Note
 Some important scripts to note:
+* datasets/semeval14/*.seg: Preprocessed training and testing sentences in SemEval2014.
 * models/lcfs_bert.py: the source code of LCFS_BERT model.
 * data_utils.py/ABSADataSet class: preprocess the tokens and calculates the shortest distance to target words via the syntax tree.
 
