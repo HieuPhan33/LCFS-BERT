@@ -16,7 +16,8 @@ For exampled output, please find files in datasets/semeval14
 
 ### 2. Training
 The command to train LCFS-BERT with context dynamic weight and SRD threshold = 4:
-```python train.py --model_name lcfs_bert --dataset restaurant \
+```
+python train.py --model_name lcfs_bert --dataset restaurant \
  --pretrained_bert_name bert-base-cased \
  --batch_size 32 --local_context_focus cdw --SRD 4
 ```
