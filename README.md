@@ -28,6 +28,21 @@ Some important scripts to note:
 * models/lcfs_bert.py: the source code of LCFS_BERT model.
 * data_utils.py/ABSADataSet class: preprocess the tokens and calculates the shortest distance to target words via the syntax tree.
 
+### CSAE script
+You can find the source code of CSAE model in the google drive link.
+https://drive.google.com/file/d/122lax53-4jDfHtQSvz-rINMSkodGK9uG/view?usp=sharing
+
+Please run the script src/run_ae.py as:
+
+python run_ae.py \ --bert_model roberta-base --do_train --do_valid \ --max_seq_length 100 --train_batch_size 32 --learning_rate 3e-5 --num_train_epochs 20 \ --output_dir LAPTOP_OUT_DIR --data_dir ../ae/laptop
+To validate:
+python eval/evaluate.py --pred LAPTOP_OUT_DIR/prediction.json --target data/laptop/laptops--test.gold.xml
+
+The CSAE model is the class RobertaPOSClassificationHead in model.py.
+It uses the dependency-word embedding in "/ae/emb.npy".
+
+Those are some basic usage about the model.
+
 ### Acknowledgement
 We have based our model development on https://github.com/songyouwei/ABSA-PyTorch. Thanks for their contribution.
 ### Citation
