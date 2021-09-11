@@ -43,6 +43,7 @@ It uses the dependency-word embedding in "/ae/emb.npy".
 
 Those are some basic usage about the model.
 
+To compute and verify the data statistics we used for training the model, please run the script `data_check.py`.
 ### Acknowledgement
 We have based our model development on https://github.com/songyouwei/ABSA-PyTorch. Thanks for their contribution.
 ### Citation
