@@ -30,7 +30,7 @@ Some important scripts to note:
 
 ### CSAE script
 You can find the source code of CSAE model in the kaggle link.
-https://www.kaggle.com/stevephan/contextualized-syntaxbased-aspect-extraction
+https://1drv.ms/u/s!AsJP8s8Vd4SChQ9XZLTgdCdOEzOt?e=cCjajJ
 
 Please run the script src/run_ae.py as:
 
