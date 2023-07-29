@@ -29,7 +29,7 @@ Some important scripts to note:
 * data_utils.py/ABSADataSet class: preprocess the tokens and calculates the shortest distance to target words via the syntax tree.
 
 ### CSAE script
-You can find the source code of CSAE model in the kaggle link.
+You can find the source code of CSAE model from this link.
 https://1drv.ms/u/s!AsJP8s8Vd4SChQ9XZLTgdCdOEzOt?e=cCjajJ
 
 Please run the script src/run_ae.py as:
